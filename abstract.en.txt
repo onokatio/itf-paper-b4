@@ -1,8 +1,16 @@
-In this era, collecting user's personal data and calcuating stat for multiple usecase is modern stuff.
-But delegate such datas to external organization in easily makes data unexpected exposing or being used with nonlegal way.
-A some way for protect it exists, and diffirential privacy is also one of them.
+In this era, collecting user's personal data and calcuating stat for multiple usecases is modern stuff.
+But delegating such data to external organizations easily makes data unexpected exposing or being used with nonlegal way.
+A some way for protecting it exists, and diffirential privacy is also one of them.
+This technology is processing and adding noise for data output to not reverese calucuating raw data using another diffirential data by user who known only output data.
+so far, running calcuate in advance and use diffirential privacy for output is exist in researchment, but it has a problem that calucuate flexiblity and choice range of programming language are restricted.
 In this research we use diffirential privacy and sandbox technologies.
-Accroding them any proccess written by any language can filter, procces and calcuate datas except output data to outside without agreement.
+WebAssembly is a technology for running binary program without depending programming language.
+The program can be running only inside WebAssembly runtime. so this technology also can be used for sandboxing technology.
+Accroding them any proccess written by any language can filter, procces and calcuate data except output data to outside without agreement.
 Even outputting data, the procces can't use raw data and should expose only results which was be noised with diffirential privacy.
-These step can make possible to calcuate stat more flexible without exposing private data than ever.
+When outputting data, using raw private data is prohibited by system call level. And allow only diffirential privacy proccesed data.
+We implement original system call a specification for webassembly runtime and program to fill compatible for order runtime to calcuating diffirential privacy from vector param.
+These step can make possible to run calcuate stat more flexible calucuating with many programming language without private data exposing than ever..
+A noise generation for diffirential privacy is separated from runtime so choice it as extension without modifing runtime source code.
 We developed a framework from these design, and verified an effectivity with running stat calcuating program.
+Also we run benchmark for runtime.
