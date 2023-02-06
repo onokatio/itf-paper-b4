@@ -1,0 +1,8 @@
+In this era, collecting user's personal data and calcuating stat for multiple usecase is modern stuff.
+But delegate such datas to external organization in easily makes data unexpected exposing or being used with nonlegal way.
+A some way for protect it exists, and diffirential privacy is also one of them.
+In this research we use diffirential privacy and sandbox technologies.
+Accroding them any proccess written by any language can filter, procces and calcuate datas except output data to outside without agreement.
+Even outputting data, the procces can't use raw data and should expose only results which was be noised with diffirential privacy.
+These step can make possible to calcuate stat more flexible without exposing private data than ever.
+We developed a framework from these design, and verified an effectivity with running stat calcuating program.
