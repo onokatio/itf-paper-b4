@@ -1,16 +1,16 @@
-In this era, collecting user's personal data and calcuating stat for multiple usecases is modern stuff.
-But delegating such data to external organizations easily makes data unexpected exposing or being used with nonlegal way.
-A some way for protecting it exists, and diffirential privacy is also one of them.
-This technology is processing and adding noise for data output to not reverese calucuating raw data using another diffirential data by user who known only output data.
-so far, running calcuate in advance and use diffirential privacy for output is exist in researchment, but it has a problem that calucuate flexiblity and choice range of programming language are restricted.
-In this research we use diffirential privacy and sandbox technologies.
-WebAssembly is a technology for running binary program without depending programming language.
-The program can be running only inside WebAssembly runtime. so this technology also can be used for sandboxing technology.
-Accroding them any proccess written by any language can filter, procces and calcuate data except output data to outside without agreement.
-Even outputting data, the procces can't use raw data and should expose only results which was be noised with diffirential privacy.
-When outputting data, using raw private data is prohibited by system call level. And allow only diffirential privacy proccesed data.
-We implement original system call a specification for webassembly runtime and program to fill compatible for order runtime to calcuating diffirential privacy from vector param.
-These step can make possible to run calcuate stat more flexible calucuating with many programming language without private data exposing than ever..
-A noise generation for diffirential privacy is separated from runtime so choice it as extension without modifing runtime source code.
-We developed a framework from these design, and verified an effectivity with running stat calcuating program.
-Also we run benchmark for runtime.
+In this era, collecting users' personal data and calculating stat for multiple use cases is modern stuff.
+But delegating such data to external organizations easily makes data unexpectedly to exposing or used in a nonlegal way.
+Some way to protect it exists, and differential privacy is also one of them.
+This technology is processing and adds noise for data output to not reverse calculating raw data using another differential data by a user who knows only output data.
+so far, running calculations in advance and using differential privacy for output exist in research, but it has a problem that calculates flexibility and choice range of programming language are restricted.
+In this research, we use differential privacy and sandbox technologies.
+WebAssembly is a technology for running binary programs without depending on a programming language.
+The program can be run only inside WebAssembly runtime. so this technology also can be used for sandbox-ing technology.
+According to them any process written in any language can filter, process and calculate data except output data to outside without agreement.
+Even outputting data, the process can't use raw data and should expose only results that were noised with differential privacy.
+The system call level prohibits using raw private data when outputting data. And allow only differential privacy processed data.
+We implement the original system-call a specification for WebAssembly runtime and program to fill compatible for order runtime to calculate differential privacy from vector parameter.
+These steps can make it possible to run calculate stat more flexibly calculating with many programming languages without private data exposing than ever.
+A noise generation for differential privacy is separated from runtime so choose it as an extension without modifying runtime source code.
+We developed a framework from these designs and verified an effective running stat calculating program.
+Also, we run a benchmark for runtime.
