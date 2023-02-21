@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "textlint *.tex",
-    "lint-fix": "textlint --fix *.tex"
+    "lint": "textlint --parallel --cache *.tex",
+    "lint-fix": "textlint --parallel --fix *.tex"
   },
   "repository": {
     "type": "git",
