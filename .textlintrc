@@ -7,6 +7,10 @@ rules:
     no-mix-dearu-desumasu:
       preferInBody: "である"
     sentence-length: false
+  preset-jtf-style:
+    "1.2.2.ピリオド(.)とカンマ(,)": false
+  preset-japanese:
+    sentence-length: false
 plugins:
   - latex2e
 filters:
