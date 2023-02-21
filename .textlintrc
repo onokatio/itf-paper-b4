@@ -11,6 +11,7 @@ rules:
     "1.2.2.ピリオド(.)とカンマ(,)": false
   preset-japanese:
     sentence-length: false
+  preset-ja-spacing: true
 plugins:
   - latex2e
 filters:
