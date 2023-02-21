@@ -22,6 +22,6 @@
   "devDependencies": {
     "textlint": "^13.3.0",
     "textlint-plugin-latex2e": "^1.2.0",
-    "textlint-rule-preset-ja-technical-writing": "^0.0.0-next-20230212115219"
+    "textlint-rule-preset-ja-technical-writing": "^7.0.0"
   }
 }
