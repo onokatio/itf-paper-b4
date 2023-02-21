@@ -1,0 +1,27 @@
+{
+  "name": "itf-paper-b4",
+  "version": "1.0.0",
+  "description": "## Abstract",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "textlint *.tex",
+    "lint-fix": "textlint --fix *.tex"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onokatio/itf-paper-b4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onokatio/itf-paper-b4/issues"
+  },
+  "homepage": "https://github.com/onokatio/itf-paper-b4#readme",
+  "devDependencies": {
+    "textlint": "^13.3.0",
+    "textlint-plugin-latex2e": "^1.2.0",
+    "textlint-rule-preset-ja-technical-writing": "^0.0.0-next-20230212115219"
+  }
+}

@@ -1,0 +1,4 @@
+rules:
+  preset-ja-technical-writing: true
+plugins:
+  - latex2e
