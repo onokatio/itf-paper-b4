@@ -1,4 +1,8 @@
 rules:
+  preset-ja-engineering-paper:
+    unify-kuten-and-touten:
+      kuten: "。"
+      touten:  "、"
   preset-ja-technical-writing:
     no-mix-dearu-desumasu:
       preferInBody: "である"
