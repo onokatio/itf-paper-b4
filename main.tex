@@ -213,7 +213,7 @@ WebAssembly技術のメリットは、コンパイラのターゲットにWebAss
 このランタイムはWebAssemblyのバイナリを読み込み、実行するための仮想マシンとして機能する。
 そのためサンドボックス技術のように扱うことができる。
 デメリットとしては通常のネイティブ環境で動作するバイナリとは別に、ソースコードをWebAssemblyに再コンパイルする必要がある点や、
-実行時にランタイムの層が追加されることでパフォーマンスが低下する点が挙げられる。
+実行時にランタイムの層を追加することでパフォーマンスが低下する点などが挙げられる。
 他にも、WebAssemblyはバイナリフォーマットであるため、ソースコードを読むことができない点や、
 さまざまな言語のコンパイラでサポートが必要になる点などが挙げられる。
 また一番の問題として、WebAssemblyはWebブラウザ上で動作するプログラムをコンパイルするための仕様であるため、システムコール仕様に沿っていない動作をする場合は
@@ -406,7 +406,7 @@ tlc trip recordデータを用いて、ノイズの乗った出力結果を100�
 相互利用性を高めるのが理由である。しかし冒頭で示したようにWebAssemblyはターゲットとして対応するプログラム言語の
 コンパイラから出力できるため、C言語やgo言語など複数の言語に対応できる。
 応用例としては既存の別言語で書かれたプログラムを、言語仕様を変えないままWebAssemblyに変換し
-WASI対応のバイナリーとして差分プライバシーを適用することが考えられる。
+WASI対応のバイナリとして差分プライバシーを適用することが考えられる。
 
 \chapter{課題}
 
@@ -453,7 +453,7 @@ WASI対応のバイナリーとして差分プライバシーを適用するこ�
 %\bibliography{samplebib}
 %% [compile] jbibtex sample; platex sample; platex sample;
 
-% textlint-disable ja-engineering-paper/unify-kuten-and-touten
+% textlint-disable ja-engineering-paper/unify-kuten-and-touten,ja-technical-writing/max-comma
 \begin{thebibliography}{1}
     \bibitem{dpsql}
     Royce J. Wilson and
@@ -507,7 +507,7 @@ WASI対応のバイナリーとして差分プライバシーを適用するこ�
     https://github.com/WebAssembly/wasi-libc/issues/209
 
 \end{thebibliography}
-% textlint-enable ja-engineering-paper/unify-kuten-and-touten
+% textlint-enable ja-engineering-paper/unify-kuten-and-touten,ja-technical-writing/max-comma
 
 %%\begin{thebibliography}{1}
 %%\bibitem{Bibunsho}
