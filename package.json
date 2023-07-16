@@ -26,7 +26,7 @@
     "textlint-rule-preset-ja-engineering-paper": "^1.0.4",
     "textlint-rule-preset-ja-spacing": "^2.3.0",
     "textlint-rule-preset-ja-technical-writing": "^0.0.0-next-20230212115219",
-    "textlint-rule-preset-japanese": "^7.0.0",
+    "textlint-rule-preset-japanese": "^8.0.0",
     "textlint-rule-preset-jtf-style": "^2.3.13"
   }
 }
